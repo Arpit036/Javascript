@@ -1,7 +1,7 @@
 const accountId = 144553
 let accountEmail = "arpi@gmail.com"
 var accountPassword = "12345"
-accountCity = "Lakhimpur"
+let accountCity = "Lakhimpur"
 let accountState;
 
 // accountId = 2 // not allowed
@@ -19,4 +19,10 @@ because of issue in block scope and functional scope
 */
 
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+// console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+
+
+console.log(accountEmail);
+console.log(accountId);
+console.log(accountPassword);
+console.log(accountCity);
